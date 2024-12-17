@@ -1,0 +1,42 @@
+/* Card styles */
+.form-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increased padding for better spacing */
+    width: 100%; /* Fill the container */
+    max-width: 500px; /* Limit the width of the card */
+}
+
+/* Heading styles */
+.heading {
+    text-align: center;
+    margin-bottom: 20px; /* Reduced margin for better spacing */
+}
+
+/* Input field styles */
+.custom-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px; /* Increased padding for better appearance */
+    font-size: 16px;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    width: calc(100% - 24px); /* Fill the container with reduced width */
+}
+
+/* Submit button styles */
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px; /* Increased padding for better appearance */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Added margin at the top */
+    width: 100%; /* Fill the container */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}

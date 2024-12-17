@@ -1,0 +1,155 @@
+
+.cartCont{
+    padding: 100px 10% 20px 10%;
+}
+.cartRow{
+    width: 100%;
+    max-width: 1000px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+}
+
+.cartCont .cartContShCartHeaging{
+    font-size: 26px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cartRowImgCont{
+    width: 85px;
+    height: 120px;
+}
+.cartRowImgCont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cartRowTxtCont{
+    margin-left: 10px;
+    height: 120px;
+}
+.cartRowTxtContHeading{
+    display: inline-block;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.cartRowTxtContOther{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cartRowSizebox{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    text-transform: capitalize;
+}
+.cartRowSizebox span{
+    text-transform: uppercase;
+}
+.cartRowProQtBtn{
+    width: 150px;
+}
+
+.cartRowProQtBtnBtn{
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    background-color: #FF4F3D;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: normal;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.CartRowPriceSpan{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    margin: 0 20px;
+}
+.cartRowItmdelBtn{
+    cursor: pointer;
+    font-size: 30px;
+}
+.cartRow .cartRowCheckBox{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    outline: none;
+    margin: 0 30px;
+}
+.cartTotalPriCont{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.cartTotalPriContCont{
+    width: 350px;
+    float: right;
+}
+.cartTotalPriContCont{
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.shCartSubTotalCont, .shCartShippingChrgs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cartTotalPriContCont button{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.shCartSubTotalCont p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.cartErrMsg{
+    text-decoration: underline;
+    color: rgba(187, 10, 10, 0.596);
+}

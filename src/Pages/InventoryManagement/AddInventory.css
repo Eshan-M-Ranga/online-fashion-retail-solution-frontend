@@ -1,0 +1,54 @@
+/* AddInventory.css */
+.main-container.addInventory {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Set height to fill the viewport */
+    height: unset;
+}
+
+.addInventory .form-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: unset;
+    width: 1000px; /* Limit the width of the card */
+/* Fill the container */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children horizontally */
+}
+
+.addInventory .heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.addInventory .custom-input {
+    margin-bottom: unset;
+}
+
+.addInventory .custom-text-input,
+.addInventory .custom-select,
+.addInventory .custom-number-input {
+    /* Unique styles for input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px; /* Add margin to input fields */
+    width: calc(100% - 20px); /* Adjust width to fit within the card */
+}
+
+.addInventory .custom-submit-btn {
+    /* Unique styles for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: right; /* Center button within the form */
+}
+

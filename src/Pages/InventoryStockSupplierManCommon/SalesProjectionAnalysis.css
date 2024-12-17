@@ -1,0 +1,63 @@
+.sales-analysis-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.alert-low {
+    background-color: #f8d7da; /* Light red background color */
+    color: #721c24; /* Dark red text color */
+}
+
+.alert-normal {
+    background-color: #d1ecf1; /* Light blue background color */
+    color: #0c5460; /* Dark blue text color */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width and margin as needed */
+    margin-bottom: 20px;
+    background-color: #fff; /* White background color for cards */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the card */
+}
+
+.full-width-card {
+    flex-basis: 100%; /* Full width */
+}
+
+.table-container {
+    background-color: #fff; /* White background color */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding around the table */
+    margin-top: 20px; /* Margin at the top */
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px; /* Padding inside table cells */
+}
+
+.table-container th {
+    background-color: #f8f9fa; /* Light gray background color for table header */
+}
+
+.table-container tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Alternate row background color */
+}

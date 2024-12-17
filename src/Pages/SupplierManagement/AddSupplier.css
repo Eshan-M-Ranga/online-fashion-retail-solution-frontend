@@ -1,0 +1,43 @@
+.main-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to fill the viewport */
+    margin-top: unset;
+}
+
+.form-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Limit the width of the card */
+    width: 100%; /* Fill the container */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children horizontally */
+}
+
+.main-container .heading {
+    text-align: center;
+    margin-bottom: unset;
+    background-color: #fff;
+    color: black;
+}
+
+.main-container .custom-input {
+    margin: 0;
+}
+
+.custom-text-input,
+.custom-select,
+.custom-number-input {
+    /* Unique styles for input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 15px; /* Add margin to input fields */
+    width: calc(100% - 20px); /* Adjust width to fit within the card */
+}

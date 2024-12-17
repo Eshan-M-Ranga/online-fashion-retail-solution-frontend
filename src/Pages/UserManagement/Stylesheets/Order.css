@@ -1,0 +1,131 @@
+.order{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.orderCont{
+    width: 540px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.orderContHeading{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.445);
+}
+.orderContHeading h1{
+    font-size: 28px;
+}
+.orderContSubTotal{
+    text-align: right;
+}
+.orderContSubTotal p:first-child{
+    font-weight: 600;
+}
+.orderCont h4{
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 40px 0 20px 0;
+}
+.orderContPMSelectCont{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+}
+.orderContPMSelectContCard{
+    width: 150px;
+    height: 90px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+.ordrCntPMSltCntCdSel{
+    border: 2px solid rgb(0, 0, 0);
+}
+.orderContCVVInptcont input{
+    width: 125px;
+}
+.orderContCVVInptcont label{
+    display: block;
+}
+.orderContExpInptcont{
+    width: 400px;
+    margin-right: 15px;
+}
+.orderContFlexInpCont{
+    display: flex;
+}
+.orderPageSucMsgCont{
+    width: 440px;
+    padding: 40px;
+    position: absolute;
+    background-color: rgba(236, 236, 236, 0.89);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.orderPageSucMsgContCont{
+    text-align: center;
+}
+.orderPageSucMsgContCont span{
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+.orderPageSucMsgContCont p:nth-child(2){
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.orderPageSucMsgContCont button{
+    width: 200px;
+    cursor: pointer;
+}
+.orderContaddress{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.orderContaddress span{
+    background-color: rgb(212, 212, 212);
+    display: inline-block;
+    width: 90%;
+    padding: 8px;
+    border-radius: 6px;
+}
+.orderContaddress .fa-pen-to-square{
+    background-color: #FF4F3D;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.orderContCreditCardContBtn{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}

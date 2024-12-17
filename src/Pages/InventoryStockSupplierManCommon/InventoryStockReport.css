@@ -1,0 +1,26 @@
+.report-container {
+    margin-top: 20px;
+    margin-bottom: 340px;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-header th {
+    text-align: center;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-row:hover {
+    background-color: #e2e2e2;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}

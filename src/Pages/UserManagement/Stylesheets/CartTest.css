@@ -1,0 +1,36 @@
+
+
+.cartTestCont{
+    background-color: aquamarine;
+    padding: 100px 10%;
+}
+.cartRowTest{
+    display: flex;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+.cartRowTestImgCnt{
+    background-color: bisque;
+    width: 100px;
+    height: 120px;
+}
+.cartRowTestImgCnt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cartRowTestContOne{
+    background-color: blueviolet;
+    width: 400px;
+    margin: 0 10px;
+}
+.cartRowTestContOne p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    text-transform: capitalize;
+}

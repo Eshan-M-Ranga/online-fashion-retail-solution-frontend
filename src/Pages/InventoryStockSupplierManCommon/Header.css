@@ -1,0 +1,28 @@
+/* Custom navbar styles */
+.custom-navbar {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+  }
+  
+  /* Custom dropdown styles */
+  .custom-dropdown {
+    background-color: #444; /* Example dropdown background color */
+  }
+  
+  /* Custom dropdown item styles */
+  .custom-dropdown .dropdown-item {
+    color: #fff; /* Example dropdown item text color */
+  }
+  
+  /* Additional styles for active and hover states if needed */
+  .custom-dropdown .dropdown-item:hover,
+  .custom-dropdown .dropdown-item.active {
+    background-color: #555; /* Example hover and active background color */
+    color: #fff; /* Example hover and active text color */
+  }  
+
+  /* Center the content of the navbar horizontally */
+.custom-navbar .container {
+    display: flex;
+    justify-content: center;
+  }  

@@ -1,0 +1,44 @@
+.footerTest{
+    height: 400px;
+    padding: 0 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient( #a7968d, rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.788), rgb(0, 0, 0)), url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726966716/footerImg_uequem.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.footerTestContDatUs, .footerTestContDatOrg, .footerTestContInfo{
+    width: 250px;
+    text-transform: capitalize;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.footerTestContDatUs h5, .footerTestContDatOrg h5{
+    color: #FF4F3D;
+    font-size: 16px;
+    margin: 15px 0 5px;
+    text-shadow: 0 0 3px #0000009a, 0 0 3px #000000a9;
+}
+.footerTestContDatUs span, .footerTestContDatOrg span{
+    display: block;
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-weight: 300;
+    text-shadow: 0 0 3px #a39791, 0 0 3px #a39791;
+}
+.ftrTstCntInfoSmCnt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ftrTstCntInfoSmCnt i{
+    font-size: 35px;
+}
+.footerTestLink{
+    color: white;
+    text-decoration: none;
+} 

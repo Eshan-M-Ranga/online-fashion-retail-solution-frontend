@@ -1,0 +1,11 @@
+
+
+.productPageProductCnt{
+    padding: 200px 10%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    row-gap: 70px;
+    column-gap: 40px;
+}

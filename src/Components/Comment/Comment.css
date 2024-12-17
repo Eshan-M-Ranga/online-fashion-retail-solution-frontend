@@ -1,0 +1,44 @@
+
+
+.commentcomment{
+    margin-bottom: 40px;
+}
+.commentcomment:first-child{
+    padding-top: 10px;
+    border-top: 1px solid rgba(148, 148, 148, 0.308);
+}
+.commentHeadCont{
+    display: flex;
+    align-items: center;
+}
+.commentHeadCont span{
+    margin: 0;
+    color: rgb(70, 70, 70);
+}
+.commentHeadCont h4{
+    text-transform: capitalize;
+    margin-left: 5px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.commentHeadCont h4 span{
+    color: #FF4F3D;
+    font-size: 18px;
+}
+.commentTxtcont{
+    background-color: rgb(228, 230, 238);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+.commentParaCont{
+    margin: unset;
+}

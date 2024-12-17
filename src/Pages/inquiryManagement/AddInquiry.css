@@ -1,0 +1,67 @@
+
+
+.userInqCont{
+    margin-top: 60px;
+}
+.userInqLabel{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+}
+.userInqinput{
+    display: block;
+    width: 100%;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 0;
+    outline: none;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:rgb(231, 231, 231);
+}
+.userInqErr{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #FF4F3D;
+}
+.userInqTxtArea{
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgb(231, 231, 231);
+    width: 100%;
+    height: 70px;
+    resize: none;
+    border-radius: 5px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.userInqContInpCont{
+    position: relative;
+    margin-bottom: 25px;
+}
+.userInqErr{
+    position: absolute;
+    color: white;
+    background-color: #FF4F3D;
+    padding: 0 5px;
+    border-radius: 6px;
+    left: 10px;
+    bottom: -35px;
+}
+.usrRvwCntTxtArBtnCntBtn{
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

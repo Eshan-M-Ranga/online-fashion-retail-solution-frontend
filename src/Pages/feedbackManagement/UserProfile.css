@@ -1,0 +1,433 @@
+
+
+
+.userProfileOrder{
+    padding: 0 10%;
+    background-color: aliceblue;
+    margin-bottom: 200px;
+}
+.userProfileOrderCont{
+    padding: 50px 0;
+}
+.userProfileOrder h2{
+    font-weight: 400;
+    max-width: 1250px;
+    margin:  0 auto;
+    padding-top: 100px;
+}
+.userProfOrderRow{
+    max-width: 1250px;
+    margin:  0 auto;
+    padding: 20px 10px 10px 10px;
+    border-radius: 2px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: white;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.userProfOrderRowSpCnt{
+    display: flex;
+    align-items: center;
+}
+.usrPrfOdrRwImgCnt{
+    border: 1px solid rgba(198, 189, 176, 0.217);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+}
+.usrPrfOdrRwDataCnt{
+    height: 100px;
+}
+.usrPrfOdrRwImgCnt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.usrPrfOdrRwDataCnt h4{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 500px;
+    height: 25px;
+    overflow: hidden;
+}
+.usrPrfOdrRwDataCntOD{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 10px;
+}
+.usrPrfOdrRwDataCnt p{
+    font-weight: 500;
+    width: 150px;
+}
+.usrPrfOdrRwDataCnt p span{
+    color: #FF4F3D;
+    font-weight: 600;
+}
+.uPrfOdRwDCFShpCoD{
+    background-color: #FF4F3D;
+    margin-left: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.usrPrfOdrRwSizeBx{
+    display: flex;
+    justify-content: center;
+}
+.usrPrfOdrRwSizeBx span{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.usrPrfOdrRwPriceBx{
+    font-weight: 600;
+    font-size: 18px;
+}
+.usrPrfOdrRwPriceBx span{
+    color: #FF4F3D;
+}
+.usrPrfOdrRwStCmBox{
+    width: 120px;
+    height: 100px;
+    font-weight: 500;
+}
+.usrPrfOdrRwSizeBx, .usrPrfOdrRwPriceBx{
+    flex: 1;
+}
+.usrPrfOdrRwStCmBox p{
+    margin: unset;
+}
+.usrPrfOdrRwStCmBox button{
+    background-color: rgb(41, 41, 41);;
+    color: white;
+    font-size: 12px;
+    text-transform: unset;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: unset;
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+.usrPrfOdrRwStCmBox button i{
+    margin-right: 2px;
+}
+.usrPrfOdrRwStCmBox span{
+    background-color: #FF4F3D;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.usrPrfOrdrRwCommCnt{
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 1px solid rgba(218, 218, 218, 0.381);
+}
+.usrPrfOrdrRwCommCnt span{
+    font-weight: 500;
+}
+.usrPrfOrdrRwCommCnt p{
+    margin: 2px 0 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.usrPrfOdrRwCmCtBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.usrPrfOdrRwCmCtBtn button{
+    margin-top: unset;
+    width: unset;
+    height: unset;
+    padding: 3px 6px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    background-color: white;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.usrPrfOdrRwCmCtBtn button:hover{
+    background-color: #FF4F3D;
+}
+.usrPrfOdrRwCmCtBtn button i{
+    margin-right: 5px;
+}
+.none{
+    display: none;
+}
+.usrPrfOdrRwCmCtBtnEdt, .usrPrfOdrRwCmCtBtnDt{
+    border: unset;
+}
+
+.userProfileUserData{
+    padding: 0 10%;
+    margin-bottom: 300px;
+}
+.userProfileUserDataCnt{
+    padding: 100px 10px 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.usrProusrdattxtCntHd{
+    position: absolute;
+    top: -70px;
+    left: 50px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.usrProusrdattxtCntChTxt{
+    position: absolute;
+    top: 22px;
+    left: 150px;
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.usrProusrdattxtCntChTxt span{
+    color: #FF4F3D;
+}
+.usrProUsrDatCntCnt{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 1px solid rgba(180, 180, 180, 0.493);
+}
+
+.usrProUsrDatCntCntNmCnt{
+    margin-top: 20px;
+    display: flex;
+}
+.usrProUsrDatCntCntNmFn, .usrProUsrDatCntCntNmLn{
+
+    flex: 1;
+}
+.usrProUsrDatCntCntNmCntPara{
+    background-color: rgb(209, 219, 228);
+    border-radius: 10px;
+    margin: unset;
+    text-transform: capitalize;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 5px 0 5px;
+}
+.usrProUsrDatCntCntRcnt{
+    display: flex;
+}
+.usrProUsrDatCntCntRcnt .fa-pen-to-square{
+    background-color: #FF4F3D;
+    height: 35px;
+    padding-top: 8px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.usrProUsrDatCntCntNmFn{
+    margin-right: 15px;
+}
+.usrProUsrDatCntCntNmLn{
+    margin-left: 15px;
+}
+.usrProUsrDatCntCntNmCntInp{
+    background-color: #ff503d3d;
+    width: 100%;
+    margin: unset;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.usrProUsrDatCntCntRcnt .fa-floppy-disk{
+    background-color: #FF4F3D;
+    padding: 10px 0;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.usrProUsrDatCntCntEmaiCnt{
+    margin-top: 20px;
+}
+.usrProUsrDatCntCntEmaiCntcnt{
+    background-color: rgb(209, 219, 228);
+    width: calc(50% - 15px);
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 5px 0 5px;
+    border-radius: 10px;
+}
+.usrProUsrDatCntCntPwCntcnt{
+    background-color: rgb(209, 219, 228);
+    height: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 6px 5px 0 5px;
+    border-radius: 10px;
+    flex: 1;
+}
+.usrProUsrDatCntCntPwCntInpCnt{
+    width: calc(50% - 15px);
+    display: flex;
+}
+
+.usrProUsrDatCntCntPwCntInpCnt .fa-pen-to-square{
+    background-color: #FF4F3D;
+    height: 35px;
+    padding-top: 8px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.usrProUsrDatCntCnteditPwCnt{
+    width: calc(50% - 15px);
+    background-color: rgb(209, 219, 228);
+    padding: 10px;
+    border-radius: 10px;
+}
+.usrPrUsrDtCtEdtPdCtCt{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.usrPrUsrDtCtEdtPdInpCt{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.usrProUsrDatErrMsgParaCnt{
+    margin: unset;
+    height: 30px;
+}
+.usrProUsrDatErrMsgParaCnt{
+    color: #FF4F3D;
+    font-weight: 500;
+}
+.usrProUsrDatCntCntediHdCnt{
+    font-weight: 500;
+    font-size: 20px;
+}
+.usrProUsrDatCntEditPwdCtBtn{
+   height: 35px;
+   
+}
+.usrProUsrDtCtEdtPdCtBtnCt{
+    display: flex;
+    justify-content: flex-end;
+}
+.usrPrUsrDatCtEditCCtBtn, .usrProUsrDatCntEditPwdCtBtn{
+    width: 100px;
+    margin-right: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.usrProUsrDatCntEditPwdCtBtn{
+    background-color: #FF4F3D;
+}
+.usrProUsrDatCntCntAddCnt{
+    display: flex;
+}
+.usrProUsrDatCntCntAddCntPara{
+    background-color: rgb(209, 219, 228);
+    border-radius: 10px;
+    margin: unset;
+    text-transform: capitalize;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 5px 0 5px;
+    height: 35px;
+}
+.usrProUsrDatCntCntAddCnt .fa-pen-to-square{
+    background-color: #FF4F3D;
+    height: 35px;
+    padding-top: 8px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.usrProUsrDatCntCntAddCntInp {
+    background-color: #ff503d3d;
+    width: 100%;
+    margin: unset;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.usrProUsrDatCntCntAddCnt .fa-floppy-disk{
+    background-color: #FF4F3D;
+    padding: 10px 0;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+.phide{
+    display: none;
+}

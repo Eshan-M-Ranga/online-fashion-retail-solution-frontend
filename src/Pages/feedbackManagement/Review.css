@@ -1,0 +1,192 @@
+
+.userReview{
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726967656/homeBanner_emdpuw.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.userReviewCont{
+    background-color: white;
+    width: 80%;
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.userReviewContPara{
+    position: absolute;
+    top: -85px;
+    left: 50px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.userReviewContParaUc{
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.userReviewContParaUc span{
+    color: #FF4F3D;
+}
+.userReviewContCont{
+    margin-top: 90px;
+    border-top: 1px solid rgb(212, 212, 212);
+    display: flex;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 0;
+}
+.usrRwCntCntImgCnt{
+    width: 190px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.usrRwCntCntImgCnt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@media only screen and (max-width: 1350px){
+    .userReviewCont{
+        top: 60%;
+        transform: translate(-50%, -55%);
+    }
+    .userReviewContPara{
+        font-size: 58px;
+        top: -55px;
+    }
+    .userReviewContParaUc{
+        font-size: 23px;
+        top: 25px;
+    }
+    .usrRwCntCntImgCnt {
+        width: 140px;
+        height: 150px;
+    }
+}
+.usrRwCntCntTxtCnt{
+    flex: 1;
+    margin-left: 10px;
+}
+.usrRwCntCntTxtCntHdTxt{
+    display: flex;
+    align-items: center;
+}
+.usrRwCntCntTxtCntHdTxt p{
+    flex: 1;
+    font-weight: 500;
+    font-size: 23px;
+    text-transform: capitalize;
+    height: 30px;
+    overflow: hidden;
+}
+.usrRwCntCntTxtCntHdTxt span{
+    background-color: #FF4F3D;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+}
+.usrRwCntCntTxtCntSrw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.usrRwCntCntTxtCntCl p{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.usrRwCntCntTxtCntCl p span{
+    color: #FF4F3D;
+    font-weight: 600;
+}
+.usrRwCntCntTxtCntFs span{
+    display: block;
+    background-color: #FF4F3D;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.usrRwCntCntTxtCntOth{
+    display: flex;
+}
+.usrRwCntCntTxtCntSize{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.usrRwCntCntTxtCntPr{
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.usrRwCntCntTxtCntPr p{
+    color: #FF4F3D;
+    font-weight: 600;
+}
+.userReviewContTxtAreaCnt{
+    width: 100%;
+}
+.userReviewContTxtAreaCnt textarea{
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgb(231, 231, 231);
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border-radius: 5px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.usrRvwCntTxtArBtnCnt{
+    display: flex;
+    justify-content: flex-end;
+}
+.usrRvwCntTxtArBtnCnt button{
+    margin: unset;
+    margin-top: 5px;
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@media only screen and (max-width: 1350px) {
+    .userReviewContTxtAreaCnt textarea{
+        height: 100px;
+    }
+}

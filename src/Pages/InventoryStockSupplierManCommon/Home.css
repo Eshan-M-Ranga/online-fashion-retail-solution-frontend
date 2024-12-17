@@ -1,0 +1,4 @@
+.home-image {
+    width: 100%; /* Fit the width of the card */
+    height: auto; /* Maintain aspect ratio */
+}

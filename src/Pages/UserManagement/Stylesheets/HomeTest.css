@@ -1,0 +1,242 @@
+.homeTestBanner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726966838/homeBanner1_u3uj4n.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+.homeTestBannerImgCont{
+    width: 30vw;
+    height: 75vh;
+    background-image: url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726966048/img1_kejnl2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.homeTestBannerTxtCont{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.homeTstBannTxtCntHdTxt{
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    
+}
+.homeTstBannTxtCntChTxt{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    transform: translateX(200px);
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.homeTstBannTxtCntChTxt span{
+    color: #FF4F3D;
+}
+.homeTestProNavCont{
+    background-image: url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726967024/leafImgRS2_sz7yg8.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    position: relative;
+    height: 500px;
+}
+.homeTestProNavContCont{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hmTstProNavCtWomenNav{
+    width: 400px;
+    height: 500px;
+    border: 10px solid #D6CBC5;
+    background-image: url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726967083/womenNavRS_tujayk.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    cursor: pointer;
+}
+.hmTstProNavCtMenNav{
+    width: 400px;
+    height: 400px;
+    border: 10px solid white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.158), #706a69ab), url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726967144/menNavRS_hjnbam.jpg);
+    background-size: cover;
+    background-position: top ;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    cursor: pointer;
+}
+.hmTstProNavCtWomenNav p{
+    font-family: "Khand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    text-shadow: 0 0 3px #d4d1d0, 0 0 5px #d4cfcc;
+}
+.hmTstProNavCtWomenNav span{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FF4F3D;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    text-transform: capitalize;
+}
+.hmTstProNavCtMenNav p{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    text-shadow: 0 0 2px #d6d1d0b4, 0 0 2px #baadad;
+    -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.434); 
+}
+.hmTstProNavCtMenNav span{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF4F3D;
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    text-shadow: 0 0 3px #030303, 0 0 5px #131212;
+    -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.288); 
+    text-transform: capitalize;
+    
+}
+.hmTstProNavCntHdCnt{
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    position: absolute;
+    top: -70px;
+    left: 42%;
+    transform: translateX(-40%);
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #d4d1d0, 0 0 5px #d4cfcc;
+}
+.hmTstProNavCntHdCntSpPra{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+    text-shadow: 0 0 5px #d4d1d0, 0 0 5px #d4cfcc;
+}
+.homeTestProductCont{
+    padding: 300px 10%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    row-gap: 70px;
+    column-gap: 40px;
+}
+.hmTstProCntCard{
+    width: 300px;
+    position: relative;
+}
+.hmTstProCntCardImgCnt{
+    width: 300px;
+    height: 420px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.hmTstProCntCardImgCnt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.hmTstProCntCardHdTxt{
+    text-align: center;
+    padding: 0 10px;
+    margin: 30px 0 10px 0;
+    height: 60px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.hmTstProCntCard span{
+    color: #FF4F3D;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.freeShp, .cshOnDel{
+    position: absolute;
+    background-color: #ff503dde;
+    color: white;
+    text-shadow: 0 0 5px #00000084, 0 0 5px #000000b7;
+    padding: 4px 8px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    left: -10px;
+}
+.freeShp{
+    bottom: 150px;
+}
+.cshOnDel{
+    bottom: 110px;
+}
+.homeTestProductContLink{
+    text-decoration: none;
+    color: black;
+}
+
+
+.homeTest{
+    position: relative;
+}
+.hmTestBn{
+    
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 3px #ff503d2d, 0 0 5px #ff503d2c;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+}

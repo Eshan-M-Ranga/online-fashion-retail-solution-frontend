@@ -1,0 +1,398 @@
+.viewPageBanner{
+    width: 100%;
+}
+.viewPageCont{
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+}
+.viewPageContLeft{
+    width: 370px;
+    height: 510px;
+    margin-right: 15px;
+}
+
+.viewPageContRight{
+    width: 550px;
+    height: 500px;
+    margin-left: 15px;
+}
+.viewPageContLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.viewPageContRight .viewPageContRightTxtCont{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-transform: capitalize;
+    height: 61px;
+    overflow: hidden;
+    line-height: 1.1;
+}
+.iCmXMarCnt{
+    display: flex;
+    margin-top: 20px;
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.iCmXMarCntLCnt{
+    flex: 1;
+}
+.iCmXMarCntRCnt{
+    width: 130px;
+}
+.iCmXMarCntRCnt span{
+    display: block;
+    text-align: center;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    background-color: #FF4F3D;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    text-shadow: 0 0 5px #00000084, 0 0 5px #000000b7;
+    font-weight: 600;
+    font-size: 15px;
+}
+.viewPageContRightPrise{
+    font-weight: 500;
+    font-size: 35px;
+    color: #FF4F3D;
+}
+.viewPageContRightPrise span{
+    color: black;
+    font-size: 25px;
+}
+.viewPagecolorsCont{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.viewPagecolorsCont .proColor{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.viewPageProSize{
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(150, 150, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.603);
+}
+.viewPageSizeCont{
+    display: flex;
+    margin-top: 5px;
+}
+.viewPageProSize{
+    padding-top: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.viewPageProSize .viewPageProSizePraX{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+.viewPageContRight .showSpnData{
+    font-family: "Khand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 20px;
+    display: block;
+}
+.viewPageSizeBtnCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Khand", sans-serif;
+    font-style: normal;
+}
+.viewPageSizeBtnCont button{
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 50px;
+    font-family: "Khand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.viewPageProdDesc{
+    width: 100%;
+    padding: 100px 10% 200px;
+}
+.viewPageProdDescCont{
+    position: relative;
+}
+.viewPageProdDescCont p{
+    padding: 100px 10px 10px;
+    background-color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    
+    background-color: rgba(228, 230, 238, 0.653);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.viewDescTextHd{
+    position: absolute;
+    top: -75px;
+    left: 50px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewDescTextCh{
+    position: absolute;
+    top: 22px;
+    left: 150px;
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewDescTextCh span{
+    color: #FF4F3D;
+}
+.viewPageCustSuggestionCnt{
+
+    position: relative;
+}
+.viewPageCustSuggestionCntImg{
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.454), rgb(255, 255, 255), rgba(150, 146, 121, 0.573), transparent), url(https://res.cloudinary.com/dkrnap1pq/image/upload/v1726967024/leafImgRS2_sz7yg8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+}
+.viewPgCstSgstCntHt{
+    position: absolute;
+    top: -75px;
+    left: calc(10% + 50px);
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewPgCstSgstCntCt{
+    position: absolute;
+    top: 22px;
+    left: calc(10% + 390px);
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewPgCstSgstCntCt span{
+    color: #FF4F3D;
+}
+
+/*/////////////////////////////////*/
+.viewPageProCntCard{
+    width: 300px;
+    position: relative;
+    margin: 0 10px;
+}
+.viewPageProCntCardImgCnt{
+    width: 300px;
+    height: 360px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.viewPageProCntCardImgCnt img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.viewPageProCntCardHdTxt{
+    text-align: center;
+    padding: 0 10px;
+    margin: 30px 0 10px 0;
+    height: 50px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.viewPageProCntCard span{
+    color: #FF4F3D;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.viewPageFreeShp, .viewPageCshOnDel{
+    position: absolute;
+    background-color: #ff503dde;
+    color: white;
+    text-shadow: 0 0 5px #00000084, 0 0 5px #000000b7;
+    padding: 4px 8px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    left: -10px;
+}
+.viewPageFreeShp{
+    bottom: 140px;
+}
+.viewPageCshOnDel{
+    bottom: 100px;
+}
+.viewPageProductContLink{
+    text-decoration: none;
+    color: black;
+}
+/*/////////////////////////////////*/
+
+
+
+
+
+
+.sizeSelected{
+    border: 2px solid #FF4F3D;
+    color: #FF4F3D;
+}
+
+.viewPgErrMsg{
+    text-decoration: underline;
+    color: #FF4F3D;
+}
+
+.viewPageCommentCont{
+    margin: 200px 10%;
+    padding: 90px 10px 10px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.viewPgCommentCntHt{
+    position: absolute;
+    top: -75px;
+    left: 50px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 80px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewPgCommentCntCt{
+    position: absolute;
+    top: 22px;
+    left: 280px;
+    letter-spacing: 5px;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a39791, 0 0 5px #a39791;
+}
+.viewPgCommentCntCt span{
+    color: #FF4F3D;
+}
+.viewPageContRightInfo{
+    height: 170px;
+}
+.viewPageContRightInfoCnt{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    font-family: "Khand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(238, 235, 231);
+    margin-bottom: 3px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.viewPageContRightInfoCnt i{
+    color: #FF4F3D;
+    font-size: 30px;
+    flex: 1;
+}
+.viewPageContRightInfoCnt p{
+    width: 490px;
+}
+.viewPageContRightInfoCnt p span{
+    color: #FF4F3D;
+    font-weight: 500;
+    margin-right: 3px;
+}
+@media only screen and (max-width: 1350px){
+    .viewPageProCntCard{
+        width: 260px;
+    }
+    .viewPageProCntCardImgCnt{
+        width: 260px;
+        height: 310px;
+        border-radius: 2px;
+    }
+    .viewDescTextHd, .viewPgCstSgstCntHt, .viewPgCommentCntHt{
+        font-size: 58px;
+        top: -52px;
+    }
+    .viewPgCstSgstCntCt{
+        font-size: 23px;
+        left: calc(10% + 310px);
+        top: 18px;
+    }
+    .viewDescTextCh{
+        font-size: 23px;
+        left: 108px;
+        top: 25px;
+    }
+    .viewPgCommentCntCt{
+        font-size: 23px;
+        left: 220px;
+        top: 20px;
+    }
+}
+.viewPageCustSuggestionCntCnt{
+    padding: 100px 10%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    row-gap: 70px;
+    column-gap: 40px;
+}

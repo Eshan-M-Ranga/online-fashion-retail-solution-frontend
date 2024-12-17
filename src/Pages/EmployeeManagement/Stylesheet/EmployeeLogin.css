@@ -1,0 +1,35 @@
+.employeeLogin{
+    height: 100vh;
+    position: relative;
+}
+.employeeLoginCont{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px 20px;
+}
+.employeeLoginCont button{
+    margin-top: 5px;
+}
+.empLoginErrMsgPara{
+    margin: 15px 0 5px;
+    text-align: center;
+    color: #FF4F3D;
+    text-decoration: underline;
+    overflow: hidden;
+    text-transform: capitalize;
+    height: 25px;
+}
+.empLoginLoginBtn{
+    display: block;
+    width: 100%;
+    background-color: black;
+    border: 0;
+    outline: none;
+    color: white;
+    height: 40px;
+}
